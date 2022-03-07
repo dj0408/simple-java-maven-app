@@ -16,6 +16,10 @@ public class App
 
     private final String getMessage() {
         return message;
-    }
+    } 
+    public String carprice(String str)
+    {  System.out.println("we are inside carprice");
+        return str + " is expensive";
+         }
 
 }
