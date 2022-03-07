@@ -38,7 +38,11 @@ public class AppTest
         } catch (AssertionError e) {
             fail("\"message\" is not \"Hello World!\"");
         }
-    }
+    } 
+    @Test
+    public void testcarprice()
+    {  
+        }
 
     @After
     public void cleanUpStreams() {
