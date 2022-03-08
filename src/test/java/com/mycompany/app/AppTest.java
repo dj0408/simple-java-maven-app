@@ -56,6 +56,13 @@ public class AppTest
    {System.out.println(" Test is failed");}
   }
    @Test
+  public void testadd()
+  {  App a5 = new App();
+   try { assertEquals(6, a5.add1(2,4));}
+   catch (AssertionError e)
+   {System.out.println(" Test is failed");}
+  }
+   @Test
   public void testmulti1()
   {  App a3 = new App();
      try {assertEquals(6,a3.mult1(2,3));}
