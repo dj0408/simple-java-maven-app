@@ -62,6 +62,13 @@ public class AppTest
    catch (AssertionError e)
    {System.out.println("test failed");}
    }
+   @Test
+  public void testdiv1()
+  {  App a4 = new App();
+     try {assertEquals(2,a4.div1(8,4));}
+   catch (AssertionError e)
+   {System.out.println("test failed");}
+   }
     @After
     public void cleanUpStreams() {
         System.setOut(null);
