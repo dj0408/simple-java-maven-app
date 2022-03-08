@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
  */
 public class AppTest
 {
-
+   
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
     @Before
@@ -41,7 +41,7 @@ public class AppTest
     } 
     @Test
     public void testcarprice()
-    {  
+    { assertEquals("honda is expensive", App.carprice("honda")," it should come expensive") 
         }
 
     @After
