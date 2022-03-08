@@ -22,8 +22,8 @@ package com.mycompany.app;
        public RaceCar(String name, String model , int price, String team)
        {super(name , model, price);
             this.team=team;}
-       carprice(String nam);
-       carservice(String nam);
+    //   carprice(String nam);
+   //  carservice(String nam);
        public void ignite(String nam)
        {   String s = nam;
          super.carprice(s);
