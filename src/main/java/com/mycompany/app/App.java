@@ -24,4 +24,7 @@ public class App
     public int add1(int a , int b)
     {
          return a+b;    }
+    public int mult1(int a , int b)
+    {  return a*b;
+        }
 }
