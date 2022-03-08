@@ -32,5 +32,5 @@ public class App
       public int div2(int a, int b)
     { return a/b;}
       public int cube(int a)
-    { return a*b*c;}
+    { return a*a*a;}
 }
