@@ -21,5 +21,7 @@ public class App
     {  System.out.println("we are inside carprice");
         return str + " is expensive";
          }
-
+    public int add1(int a , int b)
+    {
+         return a+b;    }
 }
