@@ -3,7 +3,7 @@ package com.mycompany.app;
 /**
  * Hello world!
  */
-  class Car
+/**  class Car
 {  String name,model;
    int price;
  public Car (String name , String model , int price)
@@ -30,7 +30,7 @@ package com.mycompany.app;
        System.out.println("This car starts like a race car");}
   
   
-  } 
+  }  */
 public class App
 {
 
