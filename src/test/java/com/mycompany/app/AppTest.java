@@ -56,7 +56,7 @@ public class AppTest
    {System.out.println(" Test is failed");}
   }
    @Test
-  public void testadd()
+  public void testadd1()
   {  App a5 = new App();
    try { assertEquals(6, a5.add1(2,4));}
    catch (AssertionError e)
