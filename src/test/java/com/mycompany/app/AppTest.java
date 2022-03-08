@@ -41,7 +41,7 @@ public class AppTest
     } 
     @Test
     public void testcarprice()
-    { assertEquals("honda is expensive", App.carprice("honda")," it should come expensive") 
+    { assertEquals("honda is expensive", App.carprice("honda")," it should come expensive");
         }
 
     @After
