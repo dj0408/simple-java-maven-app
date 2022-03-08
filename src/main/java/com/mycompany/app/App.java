@@ -3,7 +3,7 @@ package com.mycompany.app;
 /**
  * Hello world!
  */
- /** class Car
+  class Car
 {  String name,model;
    int price;
  public Car (String name , String model , int price)
@@ -20,7 +20,7 @@ package com.mycompany.app;
   class RaceCar extends Car
   {    String team;
        public RaceCar(String name, String model , int price, String team)
-       {super(String name, String model, int price);
+       {super(name , model, price);
             this.team=team;}
        super.carprice(String nam);
        super.carservice(String nam);
@@ -30,7 +30,7 @@ package com.mycompany.app;
        System.out.println("This car starts like a race car");}
   
   
-  } */
+  } 
 public class App
 {
 
