@@ -53,7 +53,7 @@ public class AppTest
   {  App a2 = new App();
    try { assertEquals(3, a2.add(1,2), "Addition should be shown");}
    catch (AssertionError e)
-   {System.out.println(" Test is failed")}
+   {System.out.println(" Test is failed");}
   }
 
     @After
