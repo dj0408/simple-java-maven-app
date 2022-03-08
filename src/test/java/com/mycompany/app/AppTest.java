@@ -58,7 +58,7 @@ public class AppTest
    @Test
   public void testmulti1()
   {  App a3 = new App();
-     try {assertEquals(6,m3.multi1(2,3));}
+     try {assertEquals(6,m3.mult1(2,3));}
    catch (AssertionError e)
    {System.out.println("test failed");}
    }
