@@ -55,7 +55,13 @@ public class AppTest
    catch (AssertionError e)
    {System.out.println(" Test is failed");}
   }
-
+   @Test
+  public void testmulti1()
+  {  App a3 = new App();
+     try {assertEquals(6,m3.multi1(2,3));}
+   catch (AssertionError e)
+   {System.out.println("test failed");}
+   }
     @After
     public void cleanUpStreams() {
         System.setOut(null);
