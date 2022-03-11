@@ -65,6 +65,6 @@ public class App
     { return a/b;}
       public int div2(int a, int b)
     { return a/b;}
-    //  public int cube(int a)
-   // { return a*a*a;}
+      public int cube(int a)
+   { return a*a*a;}
 }
