@@ -67,4 +67,6 @@ public class App
     { return a/b;}
       public int cube(int a)
    { return a*a*a;}
+   public void showtxt()
+   {System.out.println("Another code");}
 }
