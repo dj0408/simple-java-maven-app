@@ -76,6 +76,14 @@ public class AppTest
    catch (AssertionError e)
    {System.out.println("test failed");}
    }
+  @Test
+   public void testdiv2()
+   {
+        App a6 = new App();
+     try {assertEquals(5 , a6.div2(75,15));}
+     catch(AssertionError e)
+     {System.out.println("test failed made just now");}
+   }
     @After
     public void cleanUpStreams() {
         System.setOut(null);
